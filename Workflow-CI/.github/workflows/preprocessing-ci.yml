@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'namadataset_raw/**'
 
 jobs:
   preprocess:
@@ -27,13 +25,12 @@ jobs:
 
     - name: Run automated preprocessing
       run: |
-        python preprocessing/automate_Shinta-Raudita.py
+        python "Membangun_model/credit_card_fraud_dataset_preprocessing/automate_Shinta-Raudita.py"
 
     - name: Upload preprocessed dataset artifact
       uses: actions/upload-artifact@v4
       with:
         name: preprocessed-dataset
-        path: namadataset_preprocessing/
+        path: "Membangun_model/credit_card_fraud_dataset_preprocessing/credit_card_fraud_clean.csv"
 
-
-
+        

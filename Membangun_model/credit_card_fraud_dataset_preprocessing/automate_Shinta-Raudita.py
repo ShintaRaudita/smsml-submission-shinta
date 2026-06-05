@@ -32,7 +32,7 @@ def automated_preprocessing(input_path, output_path):
     print(f"File bersih berhasil disimpan di: {output_path}")
 
 if __name__ == "__main__":
-    INPUT_FILE = "namadataset_raw/credit_card_fraud_dataset.csv"
-    OUTPUT_FILE = "namadataset_preprocessing/credit_card_fraud_clean.csv"
+    INPUT_FILE = "Membangun_model/credit_card_fraud_dataset_preprocessing/credit_card_fraud_dataset.csv"
+    OUTPUT_FILE = "Membangun_model/credit_card_fraud_dataset_preprocessing/credit_card_fraud_clean.csv"
     
     automated_preprocessing(INPUT_FILE, OUTPUT_FILE)

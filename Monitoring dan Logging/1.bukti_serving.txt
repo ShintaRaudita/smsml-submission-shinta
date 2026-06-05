@@ -1,0 +1,27 @@
+(msml_env) D:\submission.SMSML_Shinta-Raudita\Monitoring dan Logging>python 3.prometheus_exporter.py
+ * Serving Flask app '3.prometheus_exporter'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Jun/2026 16:42:06] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jun/2026 16:42:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jun/2026 16:42:21] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:43:59] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:00] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:01] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:01] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:02] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:02] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:03] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:03] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:04] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:04] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:05] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:05] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:06] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:06] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:07] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:07] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:07] "GET /metrics HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 16:44:55] "GET /metrics HTTP/1.1" 200 -

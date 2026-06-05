@@ -25,12 +25,10 @@ jobs:
 
     - name: Run automated preprocessing
       run: |
-        python "Membangun_model/credit_card_fraud_dataset_preprocessing/automate_Shinta-Raudita.py"
+        python "Eksperimen_SML_Shinta-Raudita/preprocessing/automate_Shinta-Raudita.py"
 
     - name: Upload preprocessed dataset artifact
       uses: actions/upload-artifact@v4
       with:
         name: preprocessed-dataset
-        path: "Membangun_model/credit_card_fraud_dataset_preprocessing/credit_card_fraud_clean.csv"
-
-        
+        path: "Eksperimen_SML_Shinta-Raudita/preprocessing/namadataset_preprocessing/credit_card_fraud_clean.csv"
